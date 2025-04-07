@@ -1,4 +1,4 @@
-##Sesli komut ai projesi dökümantasyonu
+## Sesli komut ai projesi dökümantasyonu
 
 ✅ Hedef:
 Komutlar: "hey macbook", "orda mısın?", "nasılsın?"
