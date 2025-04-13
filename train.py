@@ -11,9 +11,9 @@ def train():
 
     X = (X - np.mean(X, axis=0)) / np.std(X, axis=0)
 
-    model = MyANN(input_size = 13, hidden_size = 16, output_size = 3, learning_rate = 0.01)
+    model = MyANN(input_size = 13, hidden_size = 32, output_size = 3, learning_rate = 0.01)
 
-    model.train(X,Y,epochs=99999)
+    model.train(X,Y,epochs=300)
 
     os.makedirs("model", exist_ok=True)
     model.save("model/ann_weights.pkl")

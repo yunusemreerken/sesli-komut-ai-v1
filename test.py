@@ -39,9 +39,9 @@ def test_et():
     print(f"🧠 Tahmin edilen komut: {komut}")
 
     # Sesli cevap
-    if komut == "orda_misin":
-        sesli_cevap("efendim sahip emre")
-    elif komut == "hey_macbook":
+    if komut == "hey_macbook":
+        sesli_cevap("efendim ")
+    elif komut == "orda_misin":
         sesli_cevap("Evet, buradayım")
     elif komut == "nasilsin":
         sesli_cevap("Harikayım, sen nasılsın?")

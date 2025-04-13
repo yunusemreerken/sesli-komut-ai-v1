@@ -2,7 +2,7 @@ import numpy as  np
 import pickle
 
 class MyANN:
-    def __init__(self, input_size = 13, hidden_size=16,output_size=3,learning_rate=0.01):
+    def __init__(self, input_size = 13, hidden_size=32,output_size=3,learning_rate=0.01):
         self.lr = learning_rate
 
         #Weights
